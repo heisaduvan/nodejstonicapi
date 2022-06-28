@@ -6,7 +6,11 @@
   "scripts": {
     "test": "jest --coverage --runInBand --forceExit --verbose false"
   },
-  "dependencies": {},
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "node-fetch": "^3.2.6",
+    "oauth-1.0a": "^2.2.6"
+  },
   "devDependencies": {
     "jest": "^27.5.1"
   }
